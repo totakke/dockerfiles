@@ -6,7 +6,7 @@ RUN apt-get update \
   && apt-get install -y --no-install-recommends wget \
   && rm -rf /var/lib/apt/lists/*
 
-RUN wget --quiet -O /marple.jar https://github.com/flaxsearch/marple/releases/download/v${MARPLE_VERSION}/marple-${MARPLE_VERSION}.jar
+RUN wget --quiet -O /marple.jar "https://github.com/flaxsearch/marple/releases/download/v${MARPLE_VERSION}/marple-${MARPLE_VERSION}.jar"
 
 EXPOSE 8080
 
