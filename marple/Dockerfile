@@ -1,5 +1,7 @@
 FROM openjdk:10-jre-slim
 
+LABEL maintainer="Toshiki Takeuchi <roimisia@gmail.com>"
+
 ENV MARPLE_VERSION=1.0
 
 RUN apt-get update \
