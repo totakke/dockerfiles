@@ -12,7 +12,7 @@ This is an unofficial image for [papery](https://github.com/withletters/papery).
 
 ## Usage
 
-```
+```sh
 docker pull totakke/papery
 docker run -v [/path/to/site]:/papery -p 80:8000 totakke/papery run
 ```
