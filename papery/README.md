@@ -7,7 +7,8 @@ This is an unofficial image for [papery](https://github.com/withletters/papery).
 
 ## Supported Tags
 
-- [`0.5.0`, `latest`](0.5/Dockerfile)
+- [`0.6.0`, `latest`](0.6/Dockerfile)
+- [`0.5.0`](0.5/Dockerfile)
 - [`0.1.10`](0.1/Dockerfile)
 
 ## Usage
