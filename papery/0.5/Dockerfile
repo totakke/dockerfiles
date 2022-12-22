@@ -93,7 +93,7 @@ RUN set -eux; \
 
 # Fix papery for Python 3
 RUN sed -i -e "20i import sys\nif sys.version_info[0] >= 3:\n    unicode = str" \
-    /usr/local/lib/python3.10/site-packages/papery/page.py
+    /usr/local/lib/python3.11/site-packages/papery/page.py
 
 WORKDIR /papery
 
